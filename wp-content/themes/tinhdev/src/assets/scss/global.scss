@@ -1,0 +1,77 @@
+$primary: rgba(56, 97, 46, 1);
+$secondary: rgba(135, 86, 30, 1);
+$info: rgba(148, 168, 96, 1);
+$barn: rgba(117, 17, 2, 1);
+$brown: rgba(135, 86, 30, 1);
+$coffee: rgba(96, 71, 46, 1);
+$papaya: rgba(252, 237, 208, 1);
+
+// scss-docs-start import-stack
+// Configuration
+@import "../vendor/bootstrap-5.0.2/scss/functions";
+@import "../vendor/bootstrap-5.0.2/scss/variables";
+@import "../vendor/bootstrap-5.0.2/scss/mixins";
+@import "../vendor/bootstrap-5.0.2/scss/utilities";
+
+// Layout & components
+@import "../vendor/bootstrap-5.0.2/scss/root";
+@import "../vendor/bootstrap-5.0.2/scss/reboot";
+@import "../vendor/bootstrap-5.0.2/scss/type";
+@import "../vendor/bootstrap-5.0.2/scss/images";
+@import "../vendor/bootstrap-5.0.2/scss/containers";
+@import "../vendor/bootstrap-5.0.2/scss/grid";
+@import "../vendor/bootstrap-5.0.2/scss/tables";
+@import "../vendor/bootstrap-5.0.2/scss/forms";
+@import "../vendor/bootstrap-5.0.2/scss/buttons";
+@import "../vendor/bootstrap-5.0.2/scss/transitions";
+@import "../vendor/bootstrap-5.0.2/scss/dropdown";
+@import "../vendor/bootstrap-5.0.2/scss/button-group";
+@import "../vendor/bootstrap-5.0.2/scss/nav";
+@import "../vendor/bootstrap-5.0.2/scss/navbar";
+@import "../vendor/bootstrap-5.0.2/scss/card";
+@import "../vendor/bootstrap-5.0.2/scss/accordion";
+@import "../vendor/bootstrap-5.0.2/scss/breadcrumb";
+@import "../vendor/bootstrap-5.0.2/scss/pagination";
+@import "../vendor/bootstrap-5.0.2/scss/badge";
+@import "../vendor/bootstrap-5.0.2/scss/alert";
+@import "../vendor/bootstrap-5.0.2/scss/progress";
+@import "../vendor/bootstrap-5.0.2/scss/list-group";
+@import "../vendor/bootstrap-5.0.2/scss/close";
+@import "../vendor/bootstrap-5.0.2/scss/toasts";
+@import "../vendor/bootstrap-5.0.2/scss/modal";
+@import "../vendor/bootstrap-5.0.2/scss/tooltip";
+@import "../vendor/bootstrap-5.0.2/scss/popover";
+@import "../vendor/bootstrap-5.0.2/scss/carousel";
+@import "../vendor/bootstrap-5.0.2/scss/spinners";
+@import "../vendor/bootstrap-5.0.2/scss/offcanvas";
+
+@import "../vendor/slick-1.8.1/slick/slick-theme.css";
+@import "../vendor/slick-1.8.1/slick/slick.css";
+
+// Helpers
+@import "../vendor/bootstrap-5.0.2/scss/helpers";
+
+// Utilities
+@import "../vendor/bootstrap-5.0.2/scss/utilities/api";
+// scss-docs-end import-stack
+
+@import "../vendor/fontawesome-free-6.1.1-web/scss/fontawesome";
+
+@import "../base/mixin";
+@import "../base/font-variables";
+@import "../base/layout";
+@import "../base/base";
+@import "../base/break-point";
+@import "../base/reset";
+@import "header";
+@import "slider";
+@import "about";
+@import "global_product";
+@import "banner";
+@import "list_product_carousel";
+@import "list_product";
+@import "footer";
+@import "single";
+@import "contact";
+@import "single-product";
+@import "list_posts_carousel";

@@ -1,0 +1,23 @@
+.product-card{
+    border-radius: 1rem;
+    box-shadow: 0 4px 4px rgba(#000000,.25);
+    .product-card-img{
+        overflow: hidden;
+        border-radius: 1rem 1rem 0 0;
+        height: 220px;
+        img{
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .product-card-info{
+        padding: .5rem;
+        .product-card-title{
+            font-size: 1rem;
+            font-weight: 700;
+            @include textWithEllipsis(15, 1.2, 2);
+        }
+    }
+}

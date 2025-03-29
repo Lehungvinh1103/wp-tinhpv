@@ -1,0 +1,53 @@
+.section-single {
+	font-size: 1.2rem;
+	line-height: 2.5;
+
+	img {
+		max-width: 100% !important;
+	}
+
+	.wp-caption.aligncenter {
+		max-width: 100% !important;
+		margin: auto;
+	}
+
+	p {
+		img {
+			max-width: 100% !important;
+		}
+	}
+
+	a {
+		color: $info;
+		font-weight: 900;
+	}
+
+
+}
+
+.box-banner-post {
+	width: 100%;
+	height: 300px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.post-item-sidebar {
+	.post-info {
+		flex-basis: calc(100% - 110px);
+	}
+	.post-img {
+		width: 110px;
+		height: 110px;
+
+		img {
+			width: 100%;
+			height: 100% !important;
+			object-fit: cover;
+		}
+
+	}
+}

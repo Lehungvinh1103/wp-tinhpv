@@ -1,0 +1,118 @@
+.single-product {
+	.product_title.entry-title {
+		font-size: 2rem;
+		color: $dark;
+		font-weight: bold;
+	}
+
+	.woocommerce-product-details__short-description {
+		text-align: justify;
+		line-height: 1.3;
+		margin: 2rem 0;
+
+		strong {
+			color: $primary;
+		}
+	}
+
+	.product_title.entry-title {
+		font-weight: 700;
+		font-size: 1.71rem;
+		margin: 0 0 5px;
+
+	}
+
+	.btn-qty {
+		width: 45px;
+	}
+	.title-dancing{
+		font-size: 30px;
+
+	}
+
+
+}
+.woocommerce .quantity .qty{
+	height: 36px;
+	margin: 0 10px 0;
+}
+.woocommerce .woocommerce-product-rating .star-rating {
+	color: #f00;
+}
+
+.woocommerce div.product form.cart div.quantity {
+	margin: 0;
+}
+
+.tabs.wc-tabs {
+	display: none;
+}
+
+.woocommerce-product-gallery__image.flex-active-slide {
+	border: 1px solid #CCC;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	color: #FFF;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: $primary;
+}
+.woocommerce-product-gallery__wrapper{
+	height: 550px;
+	overflow: hidden;
+}
+.flex-control-nav.flex-control-thumbs {
+	margin-top: 1rem;
+
+	li {
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
+}
+
+.entry-content .wp-caption, .entry-content img {
+	max-width: 100%;
+	margin: auto;
+
+	.wp-caption-text {
+		background-color: #f1f1f1;
+	}
+}
+
+.categories-menu {
+	li {
+		padding: 10px;
+		border-bottom: 1px solid #ccc;
+	}
+}
+
+.price-box {
+	.price {
+		border: 1px dashed #CCC;
+		background-color: #f1f1f1;
+
+		ins {
+			font-size: 20px;
+			color: red;
+			font-weight: bold;
+		}
+	}
+}
+
+.shipping-box {
+	background-color: rgba(255, 0, 0, .3);
+	border-bottom: 2px solid rgba(255, 0, 0, 1) !important;
+	margin-bottom: 1rem;
+}
+
+.stock {
+	border: 2px dashed #ccc;
+	padding: 1rem;
+
+	span {
+		color: #F00;
+	}
+}
+

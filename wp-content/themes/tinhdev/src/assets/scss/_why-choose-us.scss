@@ -1,0 +1,48 @@
+.why-choose-us {
+	overflow: hidden;
+	max-width: 100%;
+
+	.btn {
+		text-align: left;
+	}
+
+	.right-item {
+		position: relative;
+		padding-left: 2rem;
+		@include mobile {
+			overflow: hidden;
+		}
+
+		&:before,
+		&:after {
+			content: "";
+			width: 200%;
+			height: 200%;
+			position: absolute;
+			top: -50%;
+			left: 0;
+
+		}
+
+		ul, .title {
+			position: relative;
+			z-index: 2;
+		}
+
+		&:before {
+			background-image: url(../images/banner.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		&:after {
+			background-color: rgba(0, 0, 0, .8);
+
+		}
+
+		h4.title {
+			font-size: 1.2rem;
+			color: #FFF;
+		}
+	}
+}

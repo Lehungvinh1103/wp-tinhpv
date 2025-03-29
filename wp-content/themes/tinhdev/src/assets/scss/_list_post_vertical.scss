@@ -1,0 +1,27 @@
+.list-post-vertical {
+	.post-item {
+		.box-img {
+			height: 200px;
+			width: 100%;
+		}
+
+		.box-img, .info {
+			flex-basis: 50%;
+			-webkit-flex-basis: 50%;
+			@include mobile{
+				flex-basis: 100%;
+				-webkit-flex-basis: 100%;
+			}
+		}
+
+		.expert {
+			@include textWithEllipsis(15, 1.2, 4);
+		}
+
+		//&:nth-child(odd) {
+		//	a {
+		//		flex-direction: row-reverse;
+		//	}
+		//}
+	}
+}

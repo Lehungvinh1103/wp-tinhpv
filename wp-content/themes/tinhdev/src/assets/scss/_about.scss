@@ -1,0 +1,25 @@
+.about-us {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgb(255, 248, 241);
+
+	.description {
+		position: relative;
+		padding-bottom: 1rem;
+		line-height: 2;
+		font-size: 20px;
+
+		&:after {
+			content: "";
+			position: absolute;
+			width: 100px;
+			margin: auto;
+			height: 1px;
+			background-color: #ccc;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	}
+}

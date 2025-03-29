@@ -1,0 +1,52 @@
+.footer {
+	padding: 3rem 0;
+	position: relative;
+	background-image: url("../images/bg1-1-min.png");
+	background-size: cover;
+	background: $primary;
+	background-image: url(../images/bg1-1-min.png);
+	background-size: cover;
+	color: $papaya;
+
+	.section-title {
+		font-size: 1.3rem;
+		color: $papaya;
+	}
+
+	.menu-footer {
+		a {
+			color: $papaya;
+			font-weight: 700;
+			position: relative;
+			margin-bottom: 1rem;
+			align-items: center;
+			padding-left: 1rem;
+			display: block;
+
+			&:hover {
+				color: $secondary;
+			}
+
+			&:before {
+				content: '\f0da';
+				font-family: 'Font Awesome 6 Free';
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		}
+	}
+
+	.footer-icon {
+		a {
+			svg {
+				fill: #FFF;
+				height: 35px;
+				width: 40px;
+			}
+		}
+	}
+}
+.wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal {
+	display: none;
+}

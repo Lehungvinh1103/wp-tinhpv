@@ -1,0 +1,54 @@
+2024-11-19T00:06:47+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /home/sinhnguy/sinhnguyencoffee.com/wp-includes/formatting.php on line 616
+
+2024-11-19T08:36:38+00:00 CRITICAL Uncaught Error: Interface 'WPML\PB\Gutenberg\StringsInBlock\StringsInBlock' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/Integrations/Gutenberg/strings-in-block/class-base.php:5
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(571): include()
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/sinhnguy/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('WPML\\PB\\Gutenbe...')
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/Integrations/Gutenberg/strings-in-block/class-html.php(14): spl_autoload_call('WPML\\PB\\Gutenbe...')
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(571): include( in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/Integrations/Gutenberg/strings-in-block/class-base.php on line 5
+
+2024-11-19T08:36:52+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/jobs/wpml-post-translation-job.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/wpml-translation-jobs-collection.class.php on line 4
+
+2024-11-19T08:36:52+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/jobs/wpml-external-translation-job.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/wpml-translation-jobs-collection.class.php on line 3
+
+2024-11-19T08:36:52+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/jobs/wpml-external-translation-job.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/wpml-translation-jobs-collection.class.php on line 3
+
+2024-11-19T08:36:54+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/jobs/wpml-external-translation-job.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/wpml-translation-jobs-collection.class.php on line 3
+
+2024-11-19T08:37:05+00:00 CRITICAL require(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2024-11-19T08:38:51+00:00 CRITICAL Uncaught Error: Class 'WPML\Core\Twig\Lexer' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php:610
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(695): WPML\Core\Twig\Environment->tokenize(Object(WPML\Core\Twig\Source))
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(429): WPML\Core\Twig\Environment->compileSource(Object(WPML\Core\Twig\Source))
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(398): WPML\Core\Twig\Environment->loadClass('\\WPML\\Core\\__Tw...', 'template.twig', NULL)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(377): WPML\Core\Twig\Environment->loadTemplate('template.twig')
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multi in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php on line 610
+
+2024-11-19T08:38:51+00:00 CRITICAL Uncaught Error: Class 'WPML\Core\Twig\Lexer' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php:610
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(695): WPML\Core\Twig\Environment->tokenize(Object(WPML\Core\Twig\Source))
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(429): WPML\Core\Twig\Environment->compileSource(Object(WPML\Core\Twig\Source))
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(398): WPML\Core\Twig\Environment->loadClass('\\WPML\\Core\\__Tw...', 'template.twig', NULL)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php(377): WPML\Core\Twig\Environment->loadTemplate('template.twig')
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multi in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/lib/twig/src/Environment.php on line 610
+
+2024-11-19T08:38:52+00:00 CRITICAL require(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Shortcode/Shortcode.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/smart-slider-3/Nextend/Autoloader.php on line 194
+
+2024-11-19T08:44:04+00:00 CRITICAL Uncaught Error: Interface 'IWPML_PB_Strategy' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/Shared/st/strategy/api-hooks/class-wpml-pb-api-hooks-strategy.php:3
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(571): include()
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/sinhnguy/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('WPML_PB_API_Hoo...')
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/Shared/st/class-wpml-pb-loader.php(32): spl_autoload_call('WPML_PB_API_Hoo...')
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/App.php(28): WPML_PB_Loader->__construct(Object(WPML_ST in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/addons/wpml-page-builders/classes/Shared/st/strategy/api-hooks/class-wpml-pb-api-hooks-strategy.php on line 3
+
+2024-11-19T08:44:41+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wp-mail-smtp/src/Reports/Emails/Summary.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wp-mail-smtp/wp-mail-smtp.php on line 40
+
+2024-11-19T23:59:38+00:00 CRITICAL Trait 'WPML\FP\Functor\Pointed' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/fp/core/Either.php on line 90
+
+2024-11-19T23:59:38+00:00 CRITICAL Trait 'WPML\FP\Functor\Pointed' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/wpml/fp/core/Either.php on line 90
+
+2024-11-19T23:59:47+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-processor.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/gravityforms/gravityforms.php on line 299
+

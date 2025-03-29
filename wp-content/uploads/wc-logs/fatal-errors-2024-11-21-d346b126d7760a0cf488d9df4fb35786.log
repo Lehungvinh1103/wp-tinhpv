@@ -1,0 +1,86 @@
+2024-11-21T00:00:09+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /home/sinhnguy/sinhnguyencoffee.com/wp-includes/formatting.php on line 616
+
+2024-11-21T23:41:24+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPML\ST\MO\File\Manager::__construct() must be an instance of WPML\ST\MO\File\Builder, null given in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wpml-string-translation/classes/MO/File/Manager.php:13
+Stack trace:
+#0 [internal function]: WPML\ST\MO\File\Manager->__construct(Object(WPML\ST\TranslationFile\StringsRetrieve), NULL, Object(WP_Filesystem_Direct), Object(WPML_Language_Records), Object(WPML\ST\TranslationFile\Domains))
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/Injector.php(415): ReflectionClass->newInstanceArgs(Array)
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/Injector.php(373): WPML\Auryn\Injector->provisionInstance('WPML\\ST\\MO\\File...', 'wpml\\st\\mo\\file...', Array)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/container/class-wpml-container.php(98): WPML\Auryn\Injector- in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wpml-string-translation/classes/MO/File/Manager.php on line 13
+
+2024-11-21T23:41:53+00:00 CRITICAL Uncaught Error: Class 'RankMath\ContentAI\Bulk_Actions' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/includes/modules/content-ai/class-content-ai.php:32
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/includes/module/class-manager.php(487): RankMath\ContentAI\Content_AI->__construct()
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/includes/module/class-manager.php(467): RankMath\Module\Manager->load_module('content-ai', Object(RankMath\Module\Module))
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): RankMath\Module\Manager->load_modules('')
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/sinhnguy/sinhnguyencoffee.com/wp-settings.php(506): do_action('plugins_loaded')
+#6 /home/sinhnguy/sinhnguyencoffee.com/wp-config. in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/includes/modules/content-ai/class-content-ai.php on line 32
+
+2024-11-21T23:41:53+00:00 CRITICAL require(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/src/Admin/API/Reports/Taxes/DataStore.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2024-11-21T23:41:53+00:00 CRITICAL require(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/src/Admin/ReportExporter.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2024-11-21T23:42:29+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-database-service.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php on line 11
+
+2024-11-21T23:42:29+00:00 CRITICAL Uncaught Error: Class 'WC_Abstract_Google_Analytics_JS' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce-google-analytics-integration/includes/class-wc-google-gtag-js.php:14
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce-google-analytics-integration/includes/class-wc-google-analytics.php(44): include_once()
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/includes/class-wc-integrations.php(41): WC_Google_Analytics->__construct()
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(652): WC_Integrations->__construct()
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/sinhnguy/sinhnguyencoffee.com/wp-settings.php(643): do in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce-google-analytics-integration/includes/class-wc-google-gtag-js.php on line 14
+
+2024-11-21T23:42:47+00:00 CRITICAL Uncaught Error: Class 'WPML_TM_TF_Module' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/tm.php:109
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): wpml_tm_load(Object(SitePress))
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/sitepress.class.php(523): do_action('wpml_loaded', Object(SitePress))
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): SitePress->init('')
+#5 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/sinhnguy/sinhnguyencoffee.com/wp-settings.php(506): do_action('plugins_loaded')
+#8 /hom in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/tm.php on line 109
+
+2024-11-21T23:42:47+00:00 CRITICAL Uncaught ReflectionException: Class WPML_TM_ATE_AMS_Endpoints does not exist in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/StandardReflector.php:29
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/StandardReflector.php(29): ReflectionClass->__construct('WPML_TM_ATE_AMS...')
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/CachingReflector.php(73): WPML\Auryn\StandardReflector->getParamTypeHint(Object(ReflectionMethod), Object(ReflectionParameter))
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/Injector.php(527): WPML\Auryn\CachingReflector->getParamTypeHint(Object(ReflectionMethod), Object(ReflectionParameter))
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/Injector.php(474): WPML\Auryn\Injector->buildArg in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/vendor/otgs/auryn/lib/Injector.php on line 422
+
+2024-11-21T23:42:47+00:00 CRITICAL Uncaught Error: Class 'WPML\ST\Container\Config' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wpml-string-translation/classes/class-wpml-st-initialize.php:32
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wpml-string-translation/classes/class-wpml-st-initialize.php(15): WPML_ST_Initialize->configureDIC()
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): WPML_ST_Initialize->run('')
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-settings.php(506): do_action('plugins_loaded')
+#5 /home/sinhnguy/sinhnguyencoffee.com/wp-config.php(99): require_once('/home/sinhnguy/...')
+#6 /home/sinhnguy/sinhnguyencoffee.com/wp-load.php(50): require_once('/home/sinhnguy/...')
+#7 /home/sinhnguy/sinhnguyencoffee.com/wp-blog-header.php(13): require_once('/home/sinhngu in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/wpml-string-translation/classes/class-wpml-st-initialize.php on line 32
+
+2024-11-21T23:42:57+00:00 CRITICAL require(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/src/Internal/Admin/ActivityPanels.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2024-11-21T23:43:24+00:00 CRITICAL Uncaught Error: Class 'WPML_TM_Emails_Settings' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/settings/wpml-tm-default-settings.php:17
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): WPML_TM_Default_Settings->init_action('')
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-settings.php(643): do_action('init')
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-config.php(99): require_once('/home/sinhnguy/...')
+#5 /home/sinhnguy/sinhnguyencoffee.com/wp-load.php(50): require_once('/home/sinhnguy/...')
+#6 /home/sinhnguy/sinhnguyencoffee.com/wp-blog-header.php(13): require_once('/home/sinhnguy/...')
+#7 /home/sinhnguy/sinhnguyencoffee.com/index.php(17): require('/home/sinhnguy/...')
+#8 {main}
+  thrown in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/settings/wpml-tm-default-settings.php on line 17
+
+2024-11-21T23:44:08+00:00 CRITICAL require(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/src/Admin/Overrides/Order.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2024-11-21T23:44:18+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/vendor/cmb2/cmb2/includes/CMB2.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/vendor/cmb2/cmb2/init.php on line 157
+
+2024-11-21T23:44:18+00:00 CRITICAL require_once(): Failed opening required '/home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/vendor/cmb2/cmb2/includes/CMB2.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/seo-by-rank-math/vendor/cmb2/cmb2/init.php on line 157
+

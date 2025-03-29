@@ -1,0 +1,21 @@
+/*
+Theme Name: TINH DEV
+Theme URI: https://zalo.me/0961364213
+Description: Tinh Dev Theme được phát trển bởi Phan Văn Tính, PHP DEVELOPER
+Author: TINH DEV
+Author URI: https://zalo.me/0961364213
+Version: 1.0.0
+Template: genesis
+Text Domain: tinhdev
+*/
+a{
+	color: red;
+}
+.certifications h2.title-dancing {
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.box-certification img{
+	height: auto;
+}

@@ -1,0 +1,20 @@
+.section-page {
+	overflow: hidden;
+	font-size: 1.2rem;
+	line-height: 2.5;
+
+	img {
+		width: 100%;
+	}
+}
+
+.table-responsive, tr, th, td {
+	border: 1px solid #f1f1f1;
+	vertical-align: middle;
+}
+
+.table-kho-hang {
+	img {
+		width: 100px;
+	}
+}

@@ -1,0 +1,55 @@
+@import "./slick-theme";
+@import "./slick";
+
+.slick-list {
+    padding: 1rem;
+}
+
+.slick-track {
+    display: flex;
+
+    > .product-card {
+        width: calc(100% / 5 - 20px) !important;
+        margin-right: 1rem;
+    }
+}
+.slick-dots{
+    li{
+        button::before{
+            font-size: 2rem;
+        }
+    }
+}
+.slick-slider{
+    .slick-arrow{
+        position: absolute;
+        z-index: 1;
+        border: none;
+        background: none;
+        font-size: 2rem;
+        padding: 0;
+    }
+    .custom-prev{
+        top: 50%;
+        left: -2rem;
+    }
+    .custom-next{
+        right: 0;
+        top: 50%;
+        right: -2rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .slick-list {
+        padding: 1rem 0;
+    }
+    .slick-slider{
+
+        .custom-prev{
+            left: -1rem;
+        }
+        .custom-next{
+            right: -1rem;
+        }
+    }
+}

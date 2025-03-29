@@ -1,0 +1,19 @@
+2024-11-13T00:00:18+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /home/sinhnguy/sinhnguyencoffee.com/wp-includes/formatting.php on line 616
+
+2024-11-13T02:20:37+00:00 CRITICAL Uncaught Error: Class 'ameVisibleUsers' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php:438
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(1354): WPMenuEditor->load_modules()
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(2883): WPMenuEditor->load_custom_menu()
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/admin-menu-editor-pro/extras.php(1527): WPMenuEditor->get_virtual_caps(3)
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): wsMenuEditorExtras->prepare_virtual_caps_for_user(Array, Object(WP_User))
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#5 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(4092): apply_filters('admin_menu_edit...', Array, Objec in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php on line 438
+
+2024-11-13T02:20:37+00:00 CRITICAL Uncaught Error: Class 'WPML_LS_Settings_Strings' not found in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/language-switcher/class-wpml-ls-settings.php:56
+Stack trace:
+#0 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/language-switcher/class-wpml-ls-dependencies-factory.php(92): WPML_LS_Settings->__construct(Object(WPML_LS_Templates), Object(SitePress), Object(WPML_LS_Slot_Factory))
+#1 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/language-switcher/class-wpml-language-switcher.php(30): WPML_LS_Dependencies_Factory->settings()
+#2 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/sitepress.php(364): WPML_Language_Switcher->init_hooks()
+#3 /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/sitepress.php(384): wpml_init_language_switcher()
+#4 /home/sinhnguy/sinhnguyencoffee.com/wp-includes/class-wp-hook.php(324): wpml_loa in /home/sinhnguy/sinhnguyencoffee.com/wp-content/plugins/sitepress-multilingual-cms/classes/language-switcher/class-wpml-ls-settings.php on line 56
+

@@ -1,0 +1,47 @@
+.section-product {
+	/* the slides */
+	.slick-slide {
+		margin: 0 15px;
+	}
+
+	/* the parent */
+	.slick-list {
+		margin: 0 -15px;
+	}
+
+	.nav {
+		&.nav-pills {
+			background: #e2e2e2;
+			margin: 0;
+			border-bottom: 0 none;
+			clear: both;
+
+			.nav-item {
+				& + .nav-item {
+					border-right: 2px solid #FFF;
+				}
+
+				.active {
+					position: relative;
+
+					&:before {
+						content: '';
+						position: absolute;
+						clip-path: polygon(50% 100%, 0 0, 100% 0);
+						width: 15px;
+						height: 10px;
+						left: 0;
+						right: 0;
+						bottom: -10px;
+						margin: auto;
+						background-color: $primary;
+					}
+				}
+			}
+		}
+	}
+
+	.list-product-carousel {
+		min-height: 300px;
+	}
+}

@@ -1,0 +1,34 @@
+/* the slides */
+.slick-slide {
+	margin: 0 15px;
+}
+
+/* the parent */
+.slick-list {
+	margin: 0 -15px;
+}
+
+.gform_body {
+	input, textarea {
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 10px 20px !important;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		width: 100%;
+
+		&:focus {
+			box-shadow: 10px 10px 15px rgba(0, 0, 0, .3);
+		}
+	}
+
+	input[type="submit"] {
+		background-color: $primary;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		color: #FFF;
+	}
+}

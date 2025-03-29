@@ -1,0 +1,43 @@
+.intro-section {
+    position: relative;
+    h3 {
+        margin-bottom: 10px;
+        color: $primary;
+    }
+
+    .contact_title_line {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: $primary;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        
+        &::before {
+            // margin-left: -5%;
+        }
+        
+        &::after {
+            margin-top: 3px;
+        }
+        
+        .logo-image {
+            position: relative;
+            display: block;
+            width: 25px;
+            margin-top: 3px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+    }
+}
